@@ -1,0 +1,17 @@
+{
+    "name": "sentinnel_ia_workspace",
+    "version": "1.0.0",
+    "description": "Assistente AI desenvolvida para rodar localmente sem servidores, focando em ultra processamento lógico.",
+    "main": "assistenteAI_local.js",
+    "type": "module",
+    "scripts": {
+        "start": "node assistenteAI_local.js"
+    },
+    "dependencies": {
+        "@google-cloud/speech": "^6.7.0",
+        "fs-extra": "^10.0.0",
+        "node-record-lpcm16": "^1.0.1"
+    },
+    "author": "jeandev",
+    "license": "ISC"
+}
